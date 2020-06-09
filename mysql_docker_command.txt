@@ -1,1 +1,1 @@
-docker run --name fsd-db -d -p 3306:3306 -v /tmp/fsd-db:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=Fsd123 -e MYSQL_USER=user_db -e MYSQL_PASSWORD=User123 -e MYSQL_DATABASE=user_db mysql:5.7
+docker run --name fsd-db -d -p 3306:3306 -v /tmp/fsd-db:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=Fsd123 mysql:5.7
